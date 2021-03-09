@@ -1,3 +1,5 @@
+let val = '1.1.1'
+
 $(document).ready(function() {
 
     $("#layer").change(function() {
@@ -41,7 +43,57 @@ $(document).ready(function() {
 
         }else if (val == "4.1") {
             $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='4.1.1'>Old Stinkeye</option><option value='4.1.2'>Water Leaper</option> <option value='4.1.3'>Hydra</option>");
-
         }
     });
+    $("#monster").change(function() {
+        var val = $(this).val();
+       if (val == "1.1.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.1.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.1.3") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.1.4") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.1.5") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.2.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "1.2.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.1.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.1.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.1.3") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.1.4") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.1.5") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.2.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.2.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "2.2.3") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "3.1.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "3.1.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "3.1.3") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "3.2.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "4.1.1") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "4.1.2") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } else if (val == "4.1.3") {
+            document.getElementById("informations").src = "img/tentaclegoat.png";
+        } 
+    });
 });
+
+
+

@@ -46,7 +46,9 @@ select{
 }
 
 .informations{
-    background-image: url(img/Abyss-5e\ \(1\).jpg);
+    background-image: url(img/abyss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .finfo{

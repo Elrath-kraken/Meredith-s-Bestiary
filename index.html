@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav>
-            <form>
+            <form id='populate' onsubmit="populate()">
                 <img src="img/logo.png" alt="logo" class='logo'>
                 <div class='right'>
                     <select name='layer' class='select' id='layer'>
@@ -28,22 +28,19 @@
                         <option value="0.0.0"> Select a monster</option>
                            <!-- populated using JavaScript -->
                     </select>
-        
-            
-                <input class='submit' type="submit" value="Submit">
             </div>
             </form>
         </nav>
     </header>
     <main>
         <div class = 'informations'>
-            <img src="img/fiche.png" alt="informations du monstre" class='finfo'>
+            <img src="img/tentaclegoat.png" alt="informations du monstre" class='finfo'id='informations'>
         </div>
         <div class = 'stats'>
             <img src="img/stats.png" alt="informations du monstre" class='fstats'>
         </div>
         <div class = 'comments'>
-            <img src="img/aboleth.png" alt="informations du monstre" class='fcomments'>
+           
         </div>
     </main>
     <script src="jquery.min.js"></script>
