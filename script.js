@@ -25,7 +25,7 @@ $(document).ready(function() {
         if (val == "0.0") {
             $("#monster").html("<option value='0.0.0'>Select a monster</option>");
         } else if (val == "1.1") {
-            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.1.1'>Tentacle Goat</option><option value='1.1.2'>Swarm of Insects</option> <option value='1.1.3'>hippogriff</option> <option value='1.1.4'>Five-Eyed Vulture</option> <option value='1.1.3'>Basilisk</option>");
+            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.1.1'>Tentacle Goat</option><option value='1.1.2'>Swarm of Insects</option> <option value='1.1.3'>Hippogriff</option> <option value='1.1.4'>Five-Eyed Vulture</option> <option value='1.1.3'>Basilisk</option>");
         } else if (val == "1.2") {
             $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.2.2'>Fanged Harvestman</option> <option value='1.2.2'>Owlbear</option>");
 
@@ -50,7 +50,7 @@ $(document).ready(function() {
        if (val == "1.1.1") {
             document.getElementById("informations").src = "img/tentaclegoat.png";
         } else if (val == "1.1.2") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/insectswarm.png";
         } else if (val == "1.1.3") {
             document.getElementById("informations").src = "img/tentaclegoat.png";
         } else if (val == "1.1.4") {
