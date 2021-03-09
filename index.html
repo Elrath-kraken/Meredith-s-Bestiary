@@ -13,19 +13,19 @@
             <form>
                 <img src="img/logo.png" alt="logo" class='logo'>
                 <div class='right'>
-                    <select name='layer' class='select'>
+                    <select name='layer' class='select' id='layer'>
                         <option value="0">Select a layer</option>
                         <option value="1">First Layer</option>
                         <option value="2">Second Layer</option>
                         <option value="3">Third Layer</option> 
                         <option value="4">Fourth Layer</option>
                     </select>
-                    <select name='sublayer' class='select'>
-                        <option value="0">Select a region</option>
+                    <select name='sublayer' class='select' id='region'>
+                        <option value="0.0">Select a region</option>
                            <!-- populated using JavaScript -->
                     </select>
-                    <select name='monster' class='select'>
-                        <option value="0"> Select a monster</option>
+                    <select name='monster' class='select' id='monster'>
+                        <option value="0.0.0"> Select a monster</option>
                            <!-- populated using JavaScript -->
                     </select>
         
@@ -46,5 +46,7 @@
             <img src="img/aboleth.png" alt="informations du monstre" class='fcomments'>
         </div>
     </main>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
