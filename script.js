@@ -25,9 +25,9 @@ $(document).ready(function() {
         if (val == "0.0") {
             $("#monster").html("<option value='0.0.0'>Select a monster</option>");
         } else if (val == "1.1") {
-            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.1.1'>Tentacle Goat</option><option value='1.1.2'>Swarm of Insects</option> <option value='1.1.3'>Hippogriff</option> <option value='1.1.4'>Five-Eyed Vulture</option> <option value='1.1.3'>Basilisk</option>");
+            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.1.1'>Tentacle Goat</option><option value='1.1.2'>Swarm of Insects</option> <option value='1.1.3'>Hippogriff</option> <option value='1.1.4'>Five-Eyed Vulture</option> <option value='1.1.5'>Basilisk</option>");
         } else if (val == "1.2") {
-            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.2.2'>Fanged Harvestman</option> <option value='1.2.2'>Owlbear</option>");
+            $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='1.2.1'>Fanged Harvestman</option> <option value='1.2.2'>Owlbear</option>");
 
         } else if (val == "2.1") {
             $("#monster").html("<option value='0.0.0'>Select a monster</option> <option value='2.1.1'>Manticore</option><option value='2.1.2'>Phase Spider</option> <option value='2.1.3'>Corpse Weeper</option> <option value='2.1.4'>Melting Death</option> <option value='1.2.2'>Owlbear</option>");
@@ -52,15 +52,15 @@ $(document).ready(function() {
         } else if (val == "1.1.2") {
             document.getElementById("informations").src = "img/insectswarm.png";
         } else if (val == "1.1.3") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/hippogriff.png";
         } else if (val == "1.1.4") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/fiveeyedvulture.png";
         } else if (val == "1.1.5") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/basilisk.png";
         } else if (val == "1.2.1") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/fangedharvestman.png";
         } else if (val == "1.2.2") {
-            document.getElementById("informations").src = "img/tentaclegoat.png";
+            document.getElementById("informations").src = "img/owlbear.png";
         } else if (val == "2.1.1") {
             document.getElementById("informations").src = "img/tentaclegoat.png";
         } else if (val == "2.1.2") {
